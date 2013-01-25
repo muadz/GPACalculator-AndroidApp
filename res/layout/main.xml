@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true"
+	>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dip"
+            android:background="#800000"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="12dip" 
+            />   
+    <FrameLayout android:id="@+id/frameLayout1" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="50px" 
+    	xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@+id/textView1" 
+        	android:textAppearance="?android:attr/textAppearanceLarge" 
+        	android:text="GPA Calculator v1.0" 
+        	android:textSize="25px"
+        	android:textStyle="normal"
+        	android:typeface="monospace"
+        	android:layout_width="wrap_content" 
+        	android:layout_gravity="center_horizontal" 
+        	android:layout_height="fill_parent">
+        </TextView>
+
+        
+    </FrameLayout>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="7dip"
+            android:background="#800000"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="12dip" 
+            />
+            
+    
+           
+          
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	>
+   	 <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="4dip" 
+            />
+    <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	>
+    <Button android:id="@+id/subject1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 1 Credit Hour"
+    ></Button>
+    <Button android:id="@+id/grade1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 1 Grade"
+    ></Button>
+    </TableRow>
+    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="4dip" 
+            />
+    
+    
+    
+    <TableRow>
+    <Button android:id="@+id/subject2"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 2 Credit Hour"
+    ></Button>
+    <Button android:id="@+id/grade2"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 2 Grade"
+    ></Button>
+    </TableRow>
+    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="4dip" 
+            />
+    
+    <TableRow>
+    <Button android:id="@+id/subject3"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 3 Credit Hour"
+    ></Button>
+    <Button android:id="@+id/grade3"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 3 Grade"
+    ></Button>
+    </TableRow>
+    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="4dip" 
+            />
+    
+    <TableRow>
+    <Button android:id="@+id/subject4"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 4 Credit Hour"
+    ></Button>
+    <Button android:id="@+id/grade4"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 4 Grade"
+    ></Button>
+    </TableRow>
+    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="4dip" 
+            />
+    
+    <TableRow>
+    <Button android:id="@+id/subject5"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 5 Credit Hour"
+    ></Button>
+    <Button android:id="@+id/grade5"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 5 Grade"
+    ></Button>
+    </TableRow>
+    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="4dip" 
+            />
+    
+    <TableRow>
+    <Button android:id="@+id/subject6"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 6 Credit Hour"
+    ></Button>
+    <Button android:id="@+id/grade6"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 6 Grade"
+    ></Button>
+    </TableRow>
+    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="4dip" 
+            />
+    
+    <TableRow>
+    <Button android:id="@+id/subject7"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 7 Credit Hour"
+    ></Button>
+    <Button android:id="@+id/grade7"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Subject 7 Grade"
+    ></Button>
+    </TableRow>
+    
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#c0c0c0"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="4dip" 
+            />
+    <TableRow>
+    
+    	
+    </TableRow>
+    
+    </TableLayout>
+    <Button android:id="@+id/ok"
+    	android:text="Calculate" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:layout_weight="0.47" 
+    	android:layout_width="123dp">
+    </Button>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dip"
+            android:background="#FF0000"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="12dip" 
+            />  
+   	<TextView android:text="Your GPA is : "
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:textSize="30px"
+   		android:textStyle="bold"
+   		></TextView>
+   	<TextView android:id="@+id/result"
+   		android:text="..."
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:textSize="40px"
+   		></TextView>
+          
+</LinearLayout>
+</ScrollView>
